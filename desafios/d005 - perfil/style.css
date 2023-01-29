@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /*
+        Tipos de format ()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg 
+    */
+
+body {
+    background-color: rgba(196, 170, 132, 0.959);
+    font-family: Pacifico, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgb(1, 6, 54);
+    /*background-color: rgba(194, 183, 84, 0.377);*/
+    text-align: center;
+}
+
+h2 {
+    color: rgb(1, 6, 54);
+    /*background-color: rgba(194, 183, 84, 0.377);*/
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+
+.especial {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
